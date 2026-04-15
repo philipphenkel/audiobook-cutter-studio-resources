@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-15",
+  "repository_role": "Official resource repository for Audiobook Cutter Studio",
+  "files": [
+    {
+      "path": "ffmpeg/ffmpeg-aarch64-apple-darwin",
+      "platform": "macOS",
+      "arch": "arm64",
+      "sha256": "471037d5dd62284fe7a01bcdd0d4f6d51bee7b9ec7e32677c31bf2742147eaea",
+      "size_bytes": 2229304,
+      "role": "Bundled command-line backend resource for Audiobook Cutter Studio",
+      "source": "Built from ffmpeg tag n8.0.1 using build-ffmpeg-apple-darwin.sh and build-ffmpeg-deps.sh in this repository",
+      "notes": "Mach-O arm64 executable. Local -version output reports ffmpeg n8.0.1. Build scripts pin lame 3.100 and opus 1.5.2. Minimal static build focused on local file processing with selected demuxers, muxers, decoders, encoders, and speech-oriented filters including libmp3lame."
+    },
+    {
+      "path": "ffmpeg/ffmpeg-x86_64-apple-darwin",
+      "platform": "macOS",
+      "arch": "x86_64",
+      "sha256": "0c1be28c8e529cbc14f261decba065ce79cd46d3b4b76498c46489394a6cb5cb",
+      "size_bytes": 2686888,
+      "role": "Bundled command-line backend resource for Audiobook Cutter Studio",
+      "source": "Built from ffmpeg tag n8.0.1 using build-ffmpeg-apple-darwin.sh and build-ffmpeg-deps.sh in this repository",
+      "notes": "Mach-O x86_64 executable. Local -version output reports ffmpeg n8.0.1. Build scripts pin lame 3.100 and opus 1.5.2. Minimal static build focused on local file processing with selected demuxers, muxers, decoders, encoders, and speech-oriented filters including libmp3lame."
+    },
+    {
+      "path": "ffmpeg/ffmpeg-x86_64-pc-windows-msvc.exe",
+      "platform": "Windows",
+      "arch": "x86_64",
+      "sha256": "5e15b0d04303ba3225060b28db12ce7608f7e6a1ca4ceb04641d64a19de8489a",
+      "size_bytes": 2488320,
+      "role": "Bundled command-line backend resource for Audiobook Cutter Studio",
+      "source": "Built from ffmpeg tag n8.0.1 using build-ffmpeg-x86_64-pc-windows-msvc.sh and build-ffmpeg-deps.sh in this repository",
+      "notes": "PE32+ x86_64 executable. Build scripts pin ffmpeg n8.0.1, lame 3.100, and opus 1.5.2. Embedded configuration strings show a matching minimal static FFmpeg build focused on local file processing with selected demuxers, muxers, decoders, encoders, and speech-oriented filters including libmp3lame."
+    }
+  ]
+}
