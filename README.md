@@ -26,6 +26,11 @@ The later Free and Pro editions continued this concept as more polished consumer
 
 A key feature of the Pro edition was silence-based split-point detection, which made long audiobooks and podcasts easier to manage. This generation marked the first major rewrite of the original tool.
 
+The Free Edition `1.9.4` released in 2021 is still available for download:
+
+- Windows application binary [`AudiobookCutterFE.exe`](audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.exe) (multi-language)
+- Windows installer [`AudiobookCutterFE.msi`](audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.msi) (installer in English; installed application supports multiple languages)
+
 ### 3. Audiobook Cutter Studio (2026–present)
 
 Audiobook Cutter Studio is a complete rewrite built on a new architecture. It extends the original chapter-splitting concept to from Windows to macOS, broadens input and output format support, and bundles an optimized FFmpeg command-line tool as the foundation for media analysis and cutting.
