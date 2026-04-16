@@ -1,5 +1,3 @@
-
-
 # Audiobook Cutter Studio Resources
 
 This repository contains supporting resources for Audiobook Cutter Studio, including FFmpeg build scripts, FFmpeg binaries, upstream source archives, and related materials.
@@ -42,7 +40,7 @@ Thanks to the FFmpeg project and its community for making this possible.
 
 ### FFmpeg binaries
 
-This repository redistributes the following FFmpeg command-line binaries:
+This repository redistributes Audiobook Cutter Studio's bundled FFmpeg command-line binaries:
 
 - macOS Apple Silicon [`ffmpeg-aarch64-apple-darwin`](ffmpeg/ffmpeg-aarch64-apple-darwin)
 - macOS Intel [`ffmpeg-x86_64-apple-darwin`](ffmpeg/ffmpeg-x86_64-apple-darwin)
@@ -51,9 +49,9 @@ This repository redistributes the following FFmpeg command-line binaries:
 
 ### License and source code materials
 
-The bundled FFmpeg binaries in this repository are intended for redistribution as LGPL v2.1-or-later builds. The shipped build configuration does not enable `--enable-gpl`, `--enable-version3`, or `--enable-nonfree`.
+The FFmpeg binaries in this repository are intended for redistribution as LGPL v2.1-or-later builds. The build configuration does not enable `--enable-gpl`, `--enable-version3`, or `--enable-nonfree`.
 
-The exact build configuration and platform-specific build steps used for the redistributed binaries are defined in:
+The exact configuration and platform-specific build steps used for the redistributed binaries are defined in:
 
 - [`ffmpeg/build-ffmpeg-deps.sh`](ffmpeg/build-ffmpeg-deps.sh)
 - [`ffmpeg/build-ffmpeg-apple-darwin.sh`](ffmpeg/build-ffmpeg-apple-darwin.sh)
