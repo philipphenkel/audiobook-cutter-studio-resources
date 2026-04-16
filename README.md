@@ -28,8 +28,8 @@ A key feature of the Pro edition was silence-based split-point detection, which 
 
 The Free Edition `1.9.4` released in 2021 is still available for download:
 
-- Windows application binary [`AudiobookCutterFE.exe`](audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.exe) (multi-language)
-- Windows installer [`AudiobookCutterFE.msi`](audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.msi) (installer in English; installed application supports multiple languages)
+- ⬇️ Windows application binary [`AudiobookCutterFE.exe`](https://raw.githubusercontent.com/philipphenkel/audiobook-cutter-studio-resources/main/audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.exe) (multi-language)
+- ⬇️ Windows installer [`AudiobookCutterFE.msi`](https://raw.githubusercontent.com/philipphenkel/audiobook-cutter-studio-resources/main/audiobookcutter-cutter-free-1.9.4/AudiobookCutterFE.msi) (installer in English; installed application supports multiple languages)
 
 ### 3. Audiobook Cutter Studio (2026–present)
 
